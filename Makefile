@@ -98,3 +98,7 @@ enforce-backplane-rules:
 .PHONY: checklinks
 checklinks:
 	scripts/checklinks.sh
+
+.PHONY: check-wif-templates
+check-wif-templates:
+	scripts/check-wif-templates.sh
